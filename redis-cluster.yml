@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
       - name: redis-cluster
-        image: redis-cluster:v1
+        image: redis
         ports:
         - containerPort: 6379
           name: client
